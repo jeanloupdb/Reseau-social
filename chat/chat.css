@@ -1,0 +1,360 @@
+@media screen and (min-width: 427px) {
+    /*/////////////////// BARRE de NAVIGATION ///////////////////////////*/
+    body {
+        background-color: #E7E7E7;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 70px 0 200px 0;
+        margin: 0;
+    }
+    .nav_label,
+    .nav_input {
+        display: none;
+    }
+    ul {
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        background-color: rgba(30, 30, 30, 1);
+        position: fixed;
+        top: 0;
+        text-transform: uppercase;
+        color: white;
+    }
+    ul li {
+        float: left;
+        text-align: center;
+        padding: 0;
+    }
+    a {
+        float: none;
+    }
+    .ecart {
+        width: 55%;
+        color: rgba(0, 0, 0, 0);
+    }
+    .lien-nav {
+        width: 15%;
+        border-radius: 25px;
+        margin: 10px auto;
+    }
+    .a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 2ex 0 2ex 0;
+        border-left: 1px solid rgba(200, 200, 200, 0);
+        font-weight: bold;
+        background-color: rgba(30, 30, 30, 1);
+        border: none;
+    }
+    .a:hover {
+        color: white;
+        border-bottom: 4px solid gold;
+        background-color: rgb(50, 50, 50);
+        border-radius: 25px;
+    }
+    .nav_h1 {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        padding: 1ex 0 0 0;
+        font-weight: bold;
+    }
+    .nav_logo {
+        width: 100%;
+        float: left;
+    }
+    .titre-nav {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 25%;
+    }
+    #page {
+        background-color: rgba(50, 50, 50, 0.1);
+        border-radius: 25px;
+    }
+    .server_change {
+        text-decoration: none;
+        color: grey;
+    }
+    /*//////////////////////////////////////////////////////////*/
+    h1 {
+        text-align: center;
+    }
+    span {
+        color: rgb(172, 0, 0);
+    }
+    .div_chat {
+        width: 100%;
+        margin: 0 auto;
+        height: 500px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .div_chat::-webkit-scrollbar {
+        display: none;
+    }
+    .div_chat {
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+    .div_contener {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .chat_a_envoyer {
+        width: 40%;
+        margin: 10px;
+        padding: 10px 2% 10px 2%;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        text-align: right;
+        font-size: 23px;
+        float: right;
+    }
+    .submit {
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 50%;
+        text-align: center;
+        font-size: 23px;
+        float: right;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        transition-duration: 0.5s
+    }
+    .submit:hover {
+        color: red;
+        background-color: rgb(65, 61, 255);
+        box-shadow: none;
+        width: 55px;
+        height: 55px;
+    }
+    .un_chat {
+        border: 1px solid rgba(30, 30, 30, 1);
+        padding: 10px 5% 10px 2%;
+        background-color: rgb(221, 221, 243);
+        border-radius: 10px;
+        text-align: left;
+        font-size: 20px;
+        float: left;
+        clear: both;
+    }
+    .mon_chat {
+        color: white;
+        padding: 10px 5% 10px 2%;
+        background-color: rgba(65, 61, 255, 0.9);
+        border-radius: 10px;
+        text-align: left;
+        font-size: 20px;
+        float: right;
+        margin: 10px auto;
+        clear: both;
+    }
+    .pseudo_chat {
+        color: rgb(146, 146, 146);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        background-color: rgb(240, 240, 240);
+        color: black;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 0 0 100px 0;
+        margin: 0;
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        background-color: rgba(30, 30, 30);
+        top: 0px;
+    }
+    .nav_input[type=checkbox] {
+        display: none;
+    }
+    nav label {
+        display: inline-block;
+        width: 100%;
+        padding: 15px 0px;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+    }
+    .conteneur-nav {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        top: 0px;
+    }
+    /*Le texte*/
+    /*L'image*/
+    .nav_label {
+        padding: 0.5em 0;
+        text-align: left;
+        color: white;
+    }
+    .hamburger {
+        width: 10%;
+        position: absolute;
+        float: left;
+        margin: 0;
+        padding: 0;
+        left: 5%;
+        top: 8px;
+    }
+    .ecart {
+        display: none;
+    }
+    .hamburger_lien {
+        margin: 0;
+        padding: 0;
+    }
+    .connect {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 50px 5%;
+        color: rgba(30, 30, 30, 1);
+        border-bottom: 2px solid grey;
+    }
+    .create {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 0px 5%;
+        color: rgba(30, 30, 30, 1);
+        margin-top: 0;
+    }
+    input {
+        margin: 10px auto;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 3%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        width: 100%;
+    }
+    .text {
+        color: red;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px grey;
+        background-color: white;
+    }
+    .label_text {
+        display: inline;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+        display: none;
+    }
+    .n_serveur {
+        float: right;
+        padding-right: 1.5ex;
+        margin: 0;
+    }
+    .pseudo {
+        float: left;
+        padding-left: 1.5ex;
+        color: rgb(240, 104, 104);
+    }
+    /*/////////// Chat mobile /////////////////////////////////*/
+    .div_chat {
+        width: 100%;
+        margin: 50px auto 0 auto;
+        height: 500px;
+        border: 1px solid rgb(236, 228, 228);
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        overflow: scroll;
+        overflow-x: hidden;
+        box-shadow: 0px 0px 15px 1px rgb(189, 188, 188);
+    }
+    .div_chat::-webkit-scrollbar {
+        display: none;
+    }
+    .div_chat {
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+    .div_contener {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .chat_a_envoyer {
+        width: 80%;
+        margin: 10px;
+        padding: 10px 0% 10px 0%;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        text-align: right;
+        font-size: 17px;
+        float: left;
+        color: black;
+    }
+    .submit {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 50%;
+        text-align: center;
+        font-size: 23px;
+        float: right;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        transition-duration: 0.5s
+    }
+    .un_chat {
+        border: 1px solid rgb(182, 179, 179);
+        padding: 10px 5% 10px 2%;
+        background-color: rgb(221, 221, 243);
+        box-shadow: 0px 0px 15px 1px rgb(201, 199, 199);
+        border-radius: 10px;
+        text-align: left;
+        font-size: 14px;
+        float: left;
+        clear: both;
+    }
+    .mon_chat {
+        color: white;
+        padding: 10px 5% 10px 2%;
+        background-color: rgba(65, 61, 255, 0.9);
+        box-shadow: 0px 0px 15px 4px grey;
+        border-radius: 10px;
+        text-align: left;
+        font-size: 14px;
+        float: right;
+        margin: 10px auto;
+        clear: both;
+    }
+    .pseudo_chat {
+        color: rgb(146, 146, 146);
+        font-size: 10px;
+    }
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}

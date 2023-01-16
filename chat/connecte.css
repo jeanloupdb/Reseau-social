@@ -1,0 +1,256 @@
+footer {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    padding: 20px 0 20px 0;
+    position: absolute;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.footer_contact {
+    display: inline;
+    text-align: left;
+    color: rgb(200, 200, 200);
+}
+
+@media screen and (min-width: 426px) {
+    /*/////////////////// BARRE de NAVIGATION ///////////////////////////*/
+    body {
+        background-color: #E8E8E8;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 80px 0 0 0;
+        margin: 0;
+    }
+    .nav_label,
+    .nav_input {
+        display: none;
+    }
+    ul {
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        background-color: rgba(30, 30, 30, 1);
+        position: fixed;
+        top: 0;
+        text-transform: uppercase;
+        color: white;
+    }
+    ul li {
+        float: left;
+        text-align: center;
+        padding: 0;
+    }
+    a {
+        float: none;
+    }
+    .ecart {
+        width: 40%;
+        color: rgba(0, 0, 0, 0);
+    }
+    .lien-nav {
+        width: 15%;
+        border-radius: 25px;
+        margin: 10px auto;
+    }
+    .a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 2ex 0 2ex 0;
+        border-left: 1px solid rgba(200, 200, 200, 0);
+        font-weight: bold;
+        background-color: rgba(30, 30, 30, 1);
+        border: none;
+    }
+    .a:hover {
+        color: white;
+        border-bottom: 4px solid gold;
+        background-color: rgb(50, 50, 50);
+        border-radius: 25px;
+    }
+    .nav_h1 {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0;
+        width: 70%;
+        text-align: center;
+        padding: 2ex 0 0 0;
+        font-weight: bold;
+    }
+    .nav_logo {
+        width: 100%;
+        float: left;
+    }
+    .titre-nav {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 25%;
+    }
+    #page {
+        background-color: rgba(50, 50, 50, 0.1);
+        border-radius: 25px;
+    }
+    /*//////////////////////////////////////////////////////////*/
+    .create,
+    .connect {
+        padding: 100px 0;
+        background-color: white;
+        text-align: center;
+        margin: 5px 100px;
+    }
+    .submit {
+        padding: 10px 30px;
+        border: 1px solid rgb(30, 30, 30);
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    .submit:hover {
+        padding: 10px 30px;
+        background-color: rgb(30, 30, 30);
+        border: 1px solid rgb(30, 30, 30);
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .pseudo {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 2ex 0 2ex 0;
+        border-left: 1px solid rgba(200, 200, 200, 0);
+        font-weight: bold;
+        background-color: rgba(30, 30, 30, 1);
+        border: none;
+    }
+    .text {
+        padding: 0.5ex;
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        background-color: rgb(240, 240, 240);
+        color: white;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 0 0 100px 0;
+        margin: 0;
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        background-color: rgba(30, 30, 30);
+        top: 0px;
+    }
+    .nav_input[type=checkbox] {
+        display: none;
+    }
+    nav label {
+        display: inline-block;
+        width: 100%;
+        padding: 15px 0px;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+    }
+    .conteneur-nav {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        top: 0px;
+    }
+    /*Le texte*/
+    /*L'image*/
+    .nav_label {
+        padding: 1em 0;
+        text-align: center;
+    }
+    .hamburger {
+        width: 10%;
+        position: absolute;
+        float: left;
+        margin: 0;
+        padding: 0;
+        left: 5%;
+        top: 8px;
+    }
+    .ecart {
+        display: none;
+    }
+    .hamburger_lien {
+        margin: 0;
+        padding: 0;
+    }
+    .pseudo {
+        position: absolute;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        left: 5%;
+        top: 12px;
+        color: rgb(240, 104, 104);
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+    /*/////////////////////////////////////////////////////*/
+    .connect {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 50px 5%;
+        color: rgba(30, 30, 30, 1);
+        border-bottom: 2px solid grey;
+    }
+    .create {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 0px 5%;
+        color: rgba(30, 30, 30, 1);
+        margin-top: 0;
+    }
+    input {
+        margin: 10px auto;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 3%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        width: 100%;
+    }
+    .text {
+        color: red;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px grey;
+        background-color: white;
+    }
+    .label_text {
+        display: inline;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .label_text2 {
+        display: inline;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}

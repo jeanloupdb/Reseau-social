@@ -1,0 +1,249 @@
+footer {
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.footer_contact {
+    display: inline;
+    text-align: left;
+    color: rgb(200, 200, 200);
+}
+
+@media screen and (min-width: 427px) {
+    body {
+        background-color: #E8E8E8;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 80px 0 0 0;
+        margin: 0;
+    }
+    .nav_label,
+    .nav_input {
+        display: none;
+    }
+    ul {
+        margin: 0;
+        width: 100%;
+        list-style-type: none;
+        background-color: rgba(30, 30, 30, 1);
+        position: fixed;
+        top: 0;
+        text-transform: uppercase;
+        color: white;
+    }
+    ul li {
+        text-align: center;
+        padding: 0;
+    }
+    .titre-nav {
+        margin: 0;
+        padding: 0;
+        width: 30%;
+    }
+    #page {
+        background-color: rgba(50, 50, 50, 0.1);
+        border-radius: 25px;
+    }
+    /*/////////////////////////////////////////////////////////////////////////////*/
+    .contener {
+        background-color: white;
+        width: 40%;
+        padding: 50px 10%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    h2 {
+        margin: 10px;
+        padding: 5px;
+        color: red;
+        border-radius: 3%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        border: none;
+    }
+    label {
+        font-size: larger;
+    }
+    input {
+        font-size: larger;
+        border-radius: 20px;
+    }
+    input {
+        margin: 10px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 3%;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        transition-duration: 0.5s
+    }
+    input:hover {
+        color: red;
+        background-color: rgb(65, 61, 255);
+        box-shadow: none;
+    }
+    .text {
+        color: red;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px grey;
+    }
+    .text:hover {
+        color: red;
+        background-color: white;
+    }
+    .check {
+        width: 20px;
+        height: 20px;
+        color: #000;
+        background-color: rgb(65, 61, 255);
+        border-radius: 3%;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 900;
+        border: none;
+        box-shadow: none;
+        transition-duration: 0.5s;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    body {
+        background-color: rgb(240, 240, 240);
+        color: black;
+        font-family: 'Do Hyeon', sans-serif;
+        padding: 0 0 100px 0;
+        margin: 0;
+    }
+    nav ul {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        background-color: rgba(30, 30, 30);
+        top: 0px;
+    }
+    .nav_input[type=checkbox] {
+        display: none;
+    }
+    nav label {
+        display: inline-block;
+        width: 100%;
+        padding: 15px 0px;
+        text-align: center;
+        background-color: rgb(30, 30, 30);
+    }
+    .conteneur-nav {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        top: 0px;
+    }
+    /*Le texte*/
+    /*L'image*/
+    .nav_label {
+        padding: 1em 0;
+        text-align: center;
+        color: white;
+    }
+    .hamburger {
+        width: 10%;
+        position: absolute;
+        float: left;
+        margin: 0;
+        padding: 0;
+        left: 5%;
+        top: 8px;
+    }
+    .ecart {
+        display: none;
+    }
+    .hamburger_lien {
+        margin: 0;
+        padding: 0;
+    }
+    .pseudo {
+        position: absolute;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        left: 5%;
+        top: 12px;
+        color: rgb(240, 104, 104);
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+    .contener {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 50px 5%;
+        color: rgba(30, 30, 30, 1);
+        border-bottom: 2px solid grey;
+    }
+    .create {
+        width: 90%;
+        font-size: 1.2em;
+        padding: 0px 5%;
+        color: rgba(30, 30, 30, 1);
+        margin-top: 0;
+    }
+    input {
+        margin: 10px auto;
+        color: white;
+        background-color: rgb(65, 61, 255);
+        border-radius: 3%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        border: none;
+        box-shadow: 0px 0px 15px 4px grey;
+        width: 100%;
+    }
+    .text {
+        color: red;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px grey;
+        background-color: white;
+    }
+    .label_text {
+        display: inline;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        display: none;
+    }
+    .erreur {
+        font-size: 1.5ex;
+        color: white;
+        background-color: rgb(255, 8, 8);
+        box-shadow: 0px 0px 5px 0px grey;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .check {
+        display: block;
+        width: 3ex;
+        background-color: unset;
+        margin: 0;
+        padding: 0;
+        height: 3ex;
+        float: right;
+    }
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
